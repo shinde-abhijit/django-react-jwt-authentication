@@ -1,0 +1,15 @@
+
+.navbar-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: rgb(58, 0, 116);
+    padding: 10px;
+}
+.navbar-ul li a{
+    text-decoration: none !important;
+    color: white !important;
+}

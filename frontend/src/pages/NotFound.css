@@ -1,0 +1,21 @@
+.not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    transition: all 0.8s linear;
+}
+.not-found h1{
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+.not-found h1:hover {
+    transform: scale(1.1);
+    transition: all 0.8s linear;
+}
